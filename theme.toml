@@ -1,0 +1,35 @@
+version = 0.1
+
+[theme]
+name    = "cyber"
+desc    = "A cyberpunk theme with neon glow"
+version = "1.0"
+author  = "BeardWarrior"
+git     = "https://github.com/taylor85345/neon-hyprland-theme"
+config  = "theme.conf"
+
+[kill]
+exclude_bar       = ["eww"]
+exclude_wallpaper = ["swww"]
+
+[hypr]
+design      = './hypr/design.conf'
+variables   = './hypr/variables.conf'
+keybindings = './hypr/keybindings.conf'
+workspaces  = './hypr/workspaces.conf'
+
+
+[misc]
+dependencies = [
+    "hyprland-git",
+    "eww",
+    "nerd-fonts-mononoki",
+    "nerd-fonts-jetbrains-mono",
+    "rofi-wayland",
+    "dunst",
+    "trayer",
+    "swww",
+    "macchina",
+    "socat",
+    "geticons",
+]
