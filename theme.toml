@@ -8,10 +8,6 @@ author  = "BeardWarrior"
 git     = "https://github.com/taylor85345/neon-hyprland-theme"
 config  = "theme.conf"
 
-[kill]
-exclude_bar       = ["eww"]
-exclude_wallpaper = ["swww"]
-
 [hypr]
 design      = './hypr/design.conf'
 variables   = './hypr/variables.conf'
