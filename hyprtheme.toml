@@ -4,7 +4,7 @@ version = "0.2"
 name        = "test"
 description = "Testing please"
 author      = "tester"
-git         = "https://github.com/hyprland-community/_hyprtheme-theme-wip"
+repo        = "https://github.com/hyprland-community/_hyprtheme-theme-wip"
 config      = "theme.conf"
 version     = "0.0.1"
 
