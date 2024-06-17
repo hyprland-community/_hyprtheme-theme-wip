@@ -1,0 +1,45 @@
+version = 0.2
+
+[theme]
+name   = "test"
+desc   = "Testing please"
+author = "BeardWarrior"
+git    = "https://github.com/hyprland-community/_hyprtheme-theme-wip"
+config = "theme.conf"
+
+[hypr]
+location                 = ".config/hypr/"
+minimum_hyprland_version = "0.4.1"
+
+[[dots]]
+from    = 'configs'
+to      = '~/.config/'
+ignore  = ['01_IGNORED/**/*']
+include = []
+
+[[dots]]
+from    = '.local/share'
+to      = '~/.local/share'
+ignore  = []
+include = []
+
+
+[[dots]]
+from    = '.icons'
+to      = '~/.icons'
+ignore  = ["0*"]
+include = ["00_*"]
+
+[lifetime]
+setup = 'scripts/setup.sh'
+# Use default location
+# cleanup = '.hyprtheme/cleanup.sh'
+
+
+[misc]
+dependencies = ["cava"]
+
+# design      = './hypr/design.conf'
+# variables   = './hypr/variables.conf'
+# keybindings = './hypr/keybindings.conf'
+# workspaces  = './hypr/workspaces.conf'
