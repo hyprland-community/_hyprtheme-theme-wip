@@ -1,11 +1,12 @@
 version = 0.2
 
-[theme]
-name   = "test"
-desc   = "Testing please"
-author = "BeardWarrior"
-git    = "https://github.com/hyprland-community/_hyprtheme-theme-wip"
-config = "theme.conf"
+[meta]
+name    = "test"
+desc    = "Testing please"
+author  = "tester"
+git     = "https://github.com/hyprland-community/_hyprtheme-theme-wip"
+config  = "theme.conf"
+version = "0.0.1"
 
 [hypr]
 location                 = ".config/hypr/"
