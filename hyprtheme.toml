@@ -9,7 +9,7 @@ config      = "theme.conf"
 version     = "0.0.1"
 
 [hypr]
-location                 = "configs/hypr/"
+location                 = "configs/hypr"
 minimum_hyprland_version = "0.4.1"
 
 [[dots]]
